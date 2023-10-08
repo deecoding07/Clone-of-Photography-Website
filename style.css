@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_box {
+    background: url(Camera2.webp);
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn_one i {
+    color: white;
+    font-size: 30px;
+    font-weight: 700px;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu {
+    position: fixed;
+    left: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+    height: 60px;
+}
+
+.sidebar_menu .btn_two i {
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left : 275px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sidebar_menu .menu {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+
+.sidebar_menu .menu li {
+    margin: 6px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu .menu li,a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar_menu .menu i {
+    padding-right: 8px;
+}
+
+.sidebar_menu .social_media {
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+
+.sidebar_menu .social_media i {
+    color: black;
+    opacity: 0.8;
+    padding: 0 5px;
+}
+
+#check {
+    display: none;
+}
+
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+}
+
+.btn_one i:hover {
+    font-size: 40px;
+}
+
+.btn_two i:hover {
+    font-size: 30px;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.1)
+}
+
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+
+#check:checked ~ .btn_one i {
+    opacity: 0;
+}
+
+#check:checked ~ .sidebar_menu .btn_two i {
+    opacity: 1;
+}
+
+.sidebar_menu .menu li,a:hover {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gallery {
+    width: 1200px;
+    margin: 2rem auto;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    border: 5px solid black;
+}
+
+.images {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+    transition: 0.4s;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.image:hover{
+   box-shadow: 2px 8px 20px blue;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 0.1em;
+    font-family: 'Young Serif', serif;
+    padding: 50px;
+    transition: 0.4s;
+}
+
+h1:hover {
+    background-color: grey;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px;
+    background-color: #fffeb6	;
+}
+
+.text {
+    margin: 25px;
+}
+
+.text input {
+    border: 1px solid black;
+    border-radius: 2px;
+
+
+.text textarea {
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: 'Alkatra', cursive;
+}
+
+button {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+h2 {
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+}
+
+.text button b {
+    font-family: 'Alkatra', cursive;
+}
+
+
